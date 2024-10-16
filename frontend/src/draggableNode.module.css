@@ -1,0 +1,24 @@
+.draggableNode {
+  cursor: grab;
+  min-width: 80px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px; /* Rounded corners for modern look */
+  background-color: #430a89; /* Your preferred color */
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effects */
+}
+
+.draggableNode:active {
+  cursor: grabbing;
+  transform: scale(1.05); /* Slightly enlarge on grab */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Larger shadow on grab */
+}
+
+.draggableNode span {
+  color: #fff;
+  font-weight: bold;
+}

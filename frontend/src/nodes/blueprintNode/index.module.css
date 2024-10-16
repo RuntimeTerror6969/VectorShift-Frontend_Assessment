@@ -1,0 +1,60 @@
+.container {
+  border: 2px solid #2c2c2c;
+  width: 200px;
+  min-height: 80px;
+  padding: 16px; /* Increased padding for better spacing */
+  border-radius: 8px; /* More rounded corners */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+.heading {
+  font-size: 18px; /* Slightly larger font size */
+  margin-bottom: 12px; /* Increased margin for spacing */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.container .source-handle {
+  height: 24px; /* Slightly taller handle */
+  width: 8px; /* Wider handle */
+  background-color: #9e9e9e;
+  border-radius: 4px; /* More rounded handle */
+  right: -12px; /* Adjusted position */
+}
+
+.container .target-handle {
+  height: 24px; /* Slightly taller handle */
+  width: 8px; /* Wider handle */
+  background-color: #9e9e9e;
+  border-radius: 4px; /* More rounded handle */
+  left: -12px; /* Adjusted position */
+}
+
+.info {
+  font-size: 16px; /* Larger font size */
+}
+
+.node-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Increased gap for spacing */
+}
+
+.node-data {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Increased gap for spacing */
+}
+
+.node-data span {
+  font-size: 16px; /* Larger font size */
+  font-weight: bold;
+}
+
+.container textarea {
+  resize: none;
+  border: 1px solid #ccc; /* Added border to textarea */
+  padding: 8px; /* Padding inside textarea */
+  font-size: 14px; /* Adjusted font size */
+}

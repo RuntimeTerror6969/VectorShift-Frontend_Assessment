@@ -1,0 +1,65 @@
+.container {
+  border: 2px solid #430a89; /* Your desired color */
+  width: 220px; /* Slightly wider for better spacing */
+  min-height: 100px; /* Increased height */
+  padding: 16px; /* Increased padding for better spacing */
+  border-radius: 8px; /* More rounded corners */
+  background-color: #f9f9f9; /* Light background for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effects */
+}
+
+.container:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+
+.heading {
+  font-size: 18px; /* Slightly larger font size */
+  margin-bottom: 12px; /* Increased margin */
+  font-weight: bold;
+  text-decoration: underline;
+  color: #430a89; /* Your desired color */
+}
+
+.node-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Increased gap for spacing */
+}
+
+.node-data {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Increased gap for spacing */
+}
+
+.node-data span {
+  font-size: 16px; /* Larger font size */
+  font-weight: bold;
+}
+
+.node-data textarea {
+  border: 1px solid #ccc; /* Added border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 8px; /* Padding inside the textarea */
+  font-size: 14px; /* Adjusted font size */
+  outline: none;
+  resize: none;
+}
+
+.container .target-handle,
+.container .source-handle {
+  height: 24px; /* Slightly taller handle */
+  width: 8px; /* Wider handle */
+  background-color: #9e9e9e;
+  border-radius: 4px; /* More rounded handle */
+}
+
+.container .target-handle {
+  left: -12px; /* Adjusted position */
+}
+
+.container .source-handle {
+  right: -12px; /* Adjusted position */
+}
